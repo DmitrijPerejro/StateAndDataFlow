@@ -49,7 +49,7 @@ struct ContentView: View {
                 ButtonView(
                     title: "Logout",
                     action: loginViewVM.logout,
-                    color: Color.red
+                    color: .red
                 )
                 .shadow(shadow: .high, color: .red)
             }

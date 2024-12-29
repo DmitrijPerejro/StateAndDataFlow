@@ -19,6 +19,7 @@ struct LoginView: View {
                     TextField("Enter your name", text: $loginViewVM.user.name)
                         .multilineTextAlignment(.center)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .submitLabel(.done)
                         .onSubmit {
                             login()
                          }
